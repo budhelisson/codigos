@@ -1,0 +1,38 @@
+<div class="vote">
+	<div class="sistem-vote">
+		<a href="#votacao" class="lightbox">Não concorda? Então vote</a>
+	</div><!-- SISTEM-VOTE -->
+
+	<div class="background-box" id="votacao"></div>
+	<div class="box"><a href="#" class="close" title="Fechar">X</a>
+
+	<div class="list-voto">
+		<ul class="left">
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="01-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>01</h1><h2><?php $name = get_post_custom_values('01-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="02-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>02</h1><h2><?php $name = get_post_custom_values('02-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="03-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>03</h1><h2><?php $name = get_post_custom_values('03-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="04-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>04</h1><h2><?php $name = get_post_custom_values('04-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="05-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>05</h1><h2><?php $name = get_post_custom_values('05-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="06-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>06</h1><h2><?php $name = get_post_custom_values('06-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="07-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>07</h1><h2><?php $name = get_post_custom_values('07-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+		</ul>
+		<ul class="left">
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="08-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>08</h1><h2><?php $name = get_post_custom_values('08-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="09-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>09</h1><h2><?php $name = get_post_custom_values('09-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="10-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>10</h1><h2><?php $name = get_post_custom_values('10-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="11-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>11</h1><h2><?php $name = get_post_custom_values('11-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="12-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>12</h1><h2><?php $name = get_post_custom_values('12-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="13-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>13</h1><h2><?php $name = get_post_custom_values('13-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="14-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>14</h1><h2><?php $name = get_post_custom_values('14-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+		</ul>
+		<ul class="left">
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="15-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>15</h1><h2><?php $name = get_post_custom_values('15-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="16-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>16</h1><h2><?php $name = get_post_custom_values('16-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="17-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>17</h1><h2><?php $name = get_post_custom_values('17-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="18-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>18</h1><h2><?php $name = get_post_custom_values('18-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="19-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>19</h1><h2><?php $name = get_post_custom_values('19-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+			<li class="list-down"><span href=""><img src="<?php echo get_settings('home'); ?>/<?php $key="20-img";echo get_post_meta($post->ID,$key,true); ?>" alt=""><h1>20</h1><h2><?php $name = get_post_custom_values('20-name'); echo $name[0]; ?></h2></span><a href="#" class="click-button"></a></li>
+		</ul>
+	</div><!-- LIST-VOTO // VOTAÇÃO -->
+
+</div><!-- VOTE -->
